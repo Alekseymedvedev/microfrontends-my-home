@@ -1,13 +1,13 @@
 import { registerApplication, start } from 'single-spa'
-import { createStore } from './store/index.js'
+// import { createStore } from './store/index.js'
+//
+// window.store = createStore()
 
-window.store = createStore()
-
-registerApplication(
-  'vue',
-  () => import('./vue/vue.app.js'),
-  () => location.pathname.startsWith('/')
-)
+// registerApplication(
+//   'vue',
+//   () => import('./vue/vue.app'),
+//   () => location.pathname.startsWith('/')
+// )
 
 registerApplication(
   'react',

@@ -1,18 +1,13 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import singleSpaReact from 'single-spa-react'
-import App from './App'
+import App from './App.jsx'
 
 const reactLifecycles = singleSpaReact({
   React,
-  ReactDOM:ReactDOM.createRoot(
-      document.getElementById('react')
-  ),
-  // renderType:  ReactDOM.createRoot(
-  //             document.getElementById('root')
-  //   ),
- rootComponent: App,
-   // domElementGetter: () => document.getElementById('react'),
+  ReactDOM,
+  rootComponent: App,
+  domElementGetter: () => document.getElementById('react'),
   suppressComponentDidCatchWarning: true,
 })
 
