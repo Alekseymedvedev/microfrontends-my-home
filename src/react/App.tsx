@@ -9,7 +9,6 @@ const App = () => {
       setCount(window.store.count)
     })
   }, [])
-  console.log(window)
   return (
     <>
       <h2>React Clicks Count: {count}</h2>
