@@ -8,20 +8,22 @@
 </template>
 
 <script>
+import store from "../main";
+
 export default {
   data() {
     return {
-      count: window.store.count,
+      count:store.count,
     }
   },
   methods: {
     increment() {
-      window.store.increment()
+      store.increment()
     },
   },
   mounted() {
-    window.store.subscribe(() => {
-      this.count = window.store.count
+    store.subscribe(() => {
+      this.count = store.count
     })
   },
 }

@@ -2,7 +2,7 @@ import { registerApplication, start } from 'single-spa';
 import { createStore } from './store/index';
 
 
-window.store = createStore();
+  const store = createStore();
 
 registerApplication(
   'vue',
@@ -17,3 +17,5 @@ registerApplication(
 )
 
 start()
+
+export default store

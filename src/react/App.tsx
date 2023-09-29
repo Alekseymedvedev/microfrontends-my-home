@@ -1,12 +1,13 @@
 import React from 'react'
+import store from "../main";
 
 
 const App = () => {
-  const [count, setCount] = React.useState(window.store.count)
+  const [count, setCount] = React.useState(store.count)
 
   React.useEffect(() => {
-    window.store.subscribe(() => {
-      setCount(window.store.count)
+   store.subscribe(() => {
+      setCount(store.count)
     })
   }, [])
   return (
