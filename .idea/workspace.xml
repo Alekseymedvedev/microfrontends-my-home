@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263ddd93-bc23-4aa3-8a7c-7c8d5738c137" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiBadge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiBreadcrumbs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiButtonBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiCheckbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiChip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiDivider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiFormControlLabel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiInputBase.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiPaginationItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiPaper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiRadio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiStepper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiSwitch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiTabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/components/customMuiTooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/customTheme.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/themeColors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/customTheme/themeTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/header.app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/navigation.app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/react/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vue/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/vue/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/react.app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/react.app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +66,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/aleks/Desktop/test",
+    "last_opened_file_path": "C:/Users/aleks/Desktop/microfrontends-my-home",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Users\\aleks\\Desktop\\microfrontends-my-home\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -45,6 +78,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\Desktop\microfrontends-my-home" />
+      <recent name="C:\Users\aleks\Desktop\microfrontends-my-home\src" />
       <recent name="C:\Users\aleks\Desktop\microfrontends-my-home\src\react" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -59,7 +94,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695821614247</updated>
-      <workItem from="1695821622808" duration="14405000" />
+      <workItem from="1695821622808" duration="26823000" />
+      <workItem from="1696161607588" duration="615000" />
+      <workItem from="1696162618922" duration="109000" />
+      <workItem from="1696173184315" duration="2741000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1695830884646</created>
@@ -75,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695885023220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1695960991787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695960991787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

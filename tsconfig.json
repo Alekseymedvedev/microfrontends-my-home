@@ -1,0 +1,14 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"],
+  "resolutions": {
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
+  }
+}

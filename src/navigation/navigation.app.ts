@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOMClient from 'react-dom/client';
-import singleSpaReact from 'single-spa-react';
-import App from './App';
+import React from 'react'
+import singleSpaReact from 'single-spa-react'
+import Navigation from './navigation'
+import ReactDOMClient from "react-dom/client";
 
 const reactLifecycles = singleSpaReact({
   React,
   ReactDOMClient,
-  rootComponent: App,
-  domElementGetter: () => document.getElementById('react'),
+  rootComponent: Navigation,
+  domElementGetter: () => document.getElementById('navigation'),
   suppressComponentDidCatchWarning: true,
 })
 

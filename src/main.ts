@@ -15,6 +15,16 @@ registerApplication(
   () => import('./react/react.app'),
   () => location.pathname.startsWith('/')
 )
+registerApplication(
+  'header',
+  () => import('./header/header.app'),
+  () => location.pathname.startsWith('/')
+)
+registerApplication(
+  'navigation',
+  () => import('./navigation/navigation.app'),
+  () => location.pathname.startsWith('/')
+)
 
 start()
 
